@@ -1,3 +1,4 @@
+#为乌云漏洞库生成目录
 import os
 f0= open('index.html', 'w')
 #f.write('Hello, world!')
