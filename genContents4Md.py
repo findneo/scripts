@@ -17,7 +17,7 @@ def ganMenu(filename):
               continue
             i=i.strip(' \t\n') 
             head=i.split(' ')[0]
-            f2.write('['+i[len(head):].strip(' \t\n')+'](#id'+str(headId)+')   \n')
+            f2.write('|'+'-----'*(len(head)-1)+'@['+i[len(head):].strip(' \t\n')+'](#id'+str(headId)+')   \n')
             headId+=1
       headId=0     
       with open(filename,'r') as f  :
