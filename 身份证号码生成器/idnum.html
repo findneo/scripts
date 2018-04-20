@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0100)http://changbiao.github.io/stuff/card-id/%E8%BA%AB%E4%BB%BD%E8%AF%81%E5%8F%B7%E7%94%9F%E6%88%90.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>中国大陆身份证号码生成器</title>
+<meta name="Keywords" content="身份证,身份证大全,身份证号码大全,身份证号码生成,身份证查询, 身份证号码大全和姓名, 身份证号, 身份证号码, 身份证号码生成器, 身份证号码查询, 身份证号大全">
+<meta name="Description" content="指定出生地、出生日期及性别就可生成1到999个格式正确的身份证号码！切记不可用于非法活动，否则后果自负！">
+<link href="./idnum_files/style.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="http://changbiao.github.io/stuff/card-id/favicon.ico"> 
+<link href="./idnum_files/Simple.min.css" rel="stylesheet" type="text/css">
+<script language="javascript" src="./idnum_files/area.js.下载"></script>
+<script language="javascript" src="./idnum_files/datejs.js.下载"></script>
+<script language="javascript" src="./idnum_files/js.js.下载"></script>
+<script language="javascript" src="./idnum_files/function.js.下载"></script>
+<style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
+.en-markup-crop-options {
+    top: 18px !important;
+    left: 50% !important;
+    margin-left: -100px !important;
+    width: 200px !important;
+    border: 2px rgba(255,255,255,.38) solid !important;
+    border-radius: 4px !important;
+}
+
+.en-markup-crop-options div div:first-of-type {
+    margin-left: 0px !important;
+}
+</style></head>
+
+<body onload="YYYYMMDDstart(document.form1,document.form1.SYear,document.form1.SMonth,document.form1.SDay),YYYYMMDDstart(document.form1,document.form1.EYear,document.form1.EMonth,document.form1.EDay)">
+<div id="wrapper">
+	<div class="pages" style="float: left; width:480px">
+    
+    <div class="column1">
+    <div class="block color2">
+    <form name="form1">
+   <div>指定出生地、出生日期及性别就可生成1到999个格式正确的身份证号码！<strong style="color:red">切记不可用于非法活动，否则后果自负！</strong></div>
+        <input type="hidden" value="select" name="action">
+        <div><span>地点：</span>
+        <select name="p" id="p"><option value="110000">北京市</option><option value="120000">天津市</option><option value="130000">河北省</option><option value="140000">山西省</option><option value="150000">内蒙古自治区</option><option value="210000">辽宁省</option><option value="220000">吉林省</option><option value="230000">黑龙江省</option><option value="310000">上海市</option><option value="320000">江苏省</option><option value="330000">浙江省</option><option value="340000">安徽省</option><option value="350000">福建省</option><option value="360000">江西省</option><option value="370000">山东省</option><option value="410000">河南省</option><option value="420000">湖北省</option><option value="430000">湖南省</option><option value="440000">广东省</option><option value="450000">广西壮族自治区</option><option value="460000">海南省</option><option value="500000">重庆市</option><option value="510000">四川省</option><option value="630000">青海省</option><option value="640000">宁夏回族自治区</option><option value="520000">贵州省</option><option value="530000">云南省</option><option value="540000">西藏自治区</option><option value="610000">陕西省</option><option value="620000">甘肃省</option><option value="650000">新疆维吾尔自治区</option></select>
+        <select name="c" id="c"><option value="110100">市辖区</option><option value="110200">市辖县</option></select>
+        <select name="r" id="r"><option value="110101">东城区</option><option value="110102">西城区</option><option value="110103">崇文区</option><option value="110104">宣武区</option><option value="110105">朝阳区</option><option value="110106">丰台区</option><option value="110107">石景山区</option><option value="110108">海淀区</option><option value="110109">门头沟区</option><option value="110111">房山区</option><option value="110112">通州区</option><option value="110113">顺义区</option><option value="110114">昌平区</option><option value="110115">大兴区</option><option value="110116">怀柔区</option><option value="110117">平谷区</option></select>
+        </div>
+        <div><span>时间：</span>
+        <select onchange="YYYYDD(this.value,document.form1.SMonth,document.form1.SDay)" id="y" name="SYear"><option value="2005">2005</option></select>年<select onchange="MMDD(this.value,document.form1.SYear,document.form1.SDay)" id="m" name="SMonth"><option value="1">1</option></select>月<select id="d" name="SDay"><option value="1">1</option></select>日</div>
+        <div><span>性别：</span><label><input type="radio" name="g" id="g1" value="1" checked="checked">男</label>
+        <label><input type="radio" name="g" id="g2" value="2">女</label></div>
+        <div><span>提交：</span><input type="text" name="n" id="n" size="3" maxlength="3" style="width:50px;" value="5">个</div>
+        <div class="center"><input id="go" value="提交" type="button" class="button white" onclick="ock()"></div>
+    </form>	
+    </div>
+    </div>
+    <div class="clear"></div>
+    <div class="rNo" id="rNo">
+		 
+    </div>
+    <div class="clear"></div>
+</div>
+	
+    </div>
+	
+
+<script language="javascript" defer="">
+new PCAS("p","c","r","110000-北京市","110100-市辖区","110101-东城区");
+</script>
+
+
+
+<script type="text/javascript">
+    /*960*60 创建于 2016-03-28*/
+    var cpro_id = "u2579761";
+</script>
+<!-- <script src="http://cpro.baidustatic.com/cpro/ui/c.js" type="text/javascript"></script> -->
+
+
+<script type="text/javascript">
+    /*960*60 创建于 2016-03-28*/
+    var cpro_id = "u2579766";
+</script>
+<!-- <script src="http://cpro.baidustatic.com/cpro/ui/c.js" type="text/javascript"></script> -->
+
+
+<script type="text/javascript">
+    /*200*200 创建于 2016-01-25*/
+    var cpro_id = "u2506428";
+</script>
+<!-- <script src="http://cpro.baidustatic.com/cpro/ui/c.js" type="text/javascript"></script> -->
+
+
+<br>
+<script>
+/*
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?b98067ce8be487198908346c04eed7f3";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+*/
+</script>
+
+
+
+</body></html>
