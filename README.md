@@ -4,6 +4,7 @@
 *  tk教主语录
 *  [根据豆瓣观影记录生成海报](https://findneo.github.io/18716DoubanMovie/) 
 *  [Github可用短ID](https://findneo.github.io/180419GithubNiceID/) ，截至2018年4月
+*  Github快速提交
 *  批量计算文件md5值，支持目录递归
 *  静默监控键盘输入 ，输密码请优雅转身:D
 *  观影自动截图 ，不再看完就忘 ，详见 [【python】观影时定时自动截图](http://www.cnblogs.com/findneo/p/6978669.html) 
