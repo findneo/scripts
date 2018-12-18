@@ -1,5 +1,6 @@
 # scripts
 *  python2起的简单XSS监听服务，打印出整个请求报文，支持GET/POST/HEAD。（-h获取使用方法）
+*  利用取反等操作从汉字获得字母
 *   [命令行拨号上网](https://findneo.github.io/171003CmdSurfnet/)  ，pppoe连接状态一键切换
 *  [tk教主语录](https://findneo.github.io/180309RetrieveWeiboPosts/) 
 *  [根据豆瓣观影记录生成海报](https://findneo.github.io/18716DoubanMovie/) 
